@@ -176,9 +176,9 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
 
 7. Last step is define the source of our HTML 
-<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-           <script src="static/js/data.js"></script>
-         <script src="static/js/app.js"></script> -->
+<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
+<!--           <script src="static/js/data.js"></script> -->
+<!--          <script src="static/js/app.js"></script> -->
 
 
 
