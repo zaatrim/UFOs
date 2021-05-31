@@ -176,11 +176,9 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
 
 7. Last step is define the source of our HTML 
-<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
-<!--           <script src="static/js/data.js"></script> -->
-<!--          <script src="static/js/app.js"></script> -->
-
-
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+       <script src="static/js/data.js"></script>
+       <script src="static/js/app.js"></script> 
 
 ### Results
 I built a Dynamic Webpage to help Dana display her article findings. This Page is user friendly UFO's sightings  will be displayed based on the selection Criteria 
