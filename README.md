@@ -94,7 +94,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
                 // Build the table when the page loads
                 buildTable(tableData);
 4. In parallel to the app.js file, I will start creating the webPage. I will use HTML Basic format and then start enhancing it using Bootstrap and CSS.
-<!--        <!DOCTYPE html>
+       <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -107,7 +107,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"/>
             <link rel="stylesheet" href="static/css/style.css" />
-        </head> -->
+        </head>
 5. The next step is to build the dynamic webpage functionality, I will form to create the field that allows the user to input his selection criteria for the different 5 parameters ( Date, City, State, County & Shape). the filters and the Data will be displayed in columns formats                <div class="container-fluid">
             <div class="row">
             <div class="col-md-4 article-title">
