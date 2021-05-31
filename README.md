@@ -40,7 +40,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
                 }
 
 2.  Then I will create a filter to Track the changes per filter field, Once the field is Updated the outcome will display the table based on the filter criteria. To do So, I will define functions.
-<!--     // 1. Create a variable to keep track of all the filters as an object.
+    // 1. Create a variable to keep track of all the filters as an object.
     var filters = {};
 
                 // 3. Create a function that updates the filters.
@@ -80,7 +80,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
                 // matches the filter values
                 Object.entries(filters).forEach(([key, value]) => {
                 filteredData = filteredData.filter(row => row[key] === value);
-                }); -->
+                });
 
 3.  The last step in the App.JS file is to call the functions to build the empty table and then rebuild the table again based on the filter criteria.
 
