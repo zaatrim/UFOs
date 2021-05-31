@@ -94,7 +94,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
                 // Build the table when the page loads
                 buildTable(tableData);
 4. In parallel to the app.js file, I will start creating the webPage. I will use HTML Basic format and then start enhancing it using Bootstrap and CSS.
-        <!-- <!DOCTYPE html>
+       <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -107,9 +107,8 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous"/>
             <link rel="stylesheet" href="static/css/style.css" />
-        </head> -->
-5. The next step is to build the dynamic webpage functionality, I will form to create the field that allows the user to input his selection criteria for the different 5 parameters ( Date, City, State, County & Shape). the filters and the Data will be displayed in columns formats  
-<!--                 <div class="container-fluid">
+        </head>
+5. The next step is to build the dynamic webpage functionality, I will form to create the field that allows the user to input his selection criteria for the different 5 parameters ( Date, City, State, County & Shape). the filters and the Data will be displayed in columns formats                <div class="container-fluid">
             <div class="row">
             <div class="col-md-4 article-title">
                 <h3>UFO Sightings: Fact or Fancy? <small>Ufologists weigh in</small></h3>
@@ -121,8 +120,8 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
             </div>
             </div>
         </div>
- -->
-<!--         <div class="container-fluid">
+
+        <div class="container-fluid">
             <div class="row">
             <div class="col-md-3">
                 <div class="filters">
@@ -152,9 +151,9 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
                     </ul>
                 </form>
                 </div>
-            </div> -->
+            </div>
 6. Next I will create the Table that reacted to the selection criteria
-<!--             <div class="col-md-9">
+             <div class="col-md-9">
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -173,7 +172,7 @@ All Data is stored in a data.js file and it's stored in JS format. 1st Step in t
         </div>
       </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> 
 
 7. Last step is define the source of our HTML 
        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
